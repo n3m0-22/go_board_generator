@@ -1,6 +1,29 @@
 {
-  "grid_size": 9,
-  "line_thickness": 0.4,
-  "star_diameter": 2.5
-}
+  "grid_size": 19,
+  "line_thickness": 0.8,
+  "star_diameter": 2.5,
+  "grid_color": "black",
+  "background_color": "white",
 
+  "sgf": {
+    "enabled": true,
+    "path": "demo.sgf",
+    "render": {
+      "mode": "moves",
+      "moves_limit": 0,
+      "numbering": "none",
+      "number_color": "#ffffff",
+      "outline_color": "#000000",
+      "stone_radius_scale": 0.42,
+      "move_number_font_scale": 0.44
+    }
+  },
+
+  "export": {
+    "variants": ["board", "stones", "both"],
+    "board_background": "transparent",
+    "stones_background": "transparent",
+    "both_background": "transparent",
+    "name_suffix": ""
+  }
+}
